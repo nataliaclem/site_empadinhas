@@ -72,3 +72,55 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+section {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #ff840a;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Espaçamento entre as imagens */
+    
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member img {
+    width: 250px; /* Ajuste o tamanho conforme necessário */
+    height: 280px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Faz a imagem ficar redonda */
+    object-fit: cover; /* Garante que a imagem fique proporcional dentro do círculo */
+    border: 3px solid #ff840a; /* Borda opcional para estilo */
+}
+
+.team-member h4 {
+    margin-top: 30px; /* Espaçamento entre a imagem e o nome */
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+iframe {
+    border-radius: 10px;
+    border: 2px solid #ff840a;
+}
